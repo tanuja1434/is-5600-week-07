@@ -7,5 +7,7 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'jsdom',
-  },
+  }
+  ,
+  base: '/is-5600-week-07/'
 })
