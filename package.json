@@ -27,7 +27,7 @@
     "vitest": "^0.34.6"
   },
   "scripts": {
-    "start": "vite",
+    "start": "cross-env BROWSER=none WDS_SOCKET_PORT=0 vite --port 3000",
     "build": "vite build && cp dist/index.html dist/404.html",
     "preview": "vite preview",
     "test": "vitest",
