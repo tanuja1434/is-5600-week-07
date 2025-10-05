@@ -13,12 +13,12 @@ function App() {
     <CartProvider>
       <div className="App">
         <Header />
-        <Routes>
-          <Route path="/" element={<CardList />} />
-          <Route path="/product/:id" element={<SingleView />} />
-          <Route path="/orders" element={<Orders />} />
-          <Route path="/cart" element={<Cart />} />
-        </Routes>
+          <Routes>
+            <Route path="/" element={<CardList />} />
+            <Route path="/product/:id" element={<SingleView />} />
+            <Route path="/orders" element={<Orders />} />
+            <Route path="/cart" element={<Cart />} />
+          </Routes>
       </div>
     </CartProvider>
   );
