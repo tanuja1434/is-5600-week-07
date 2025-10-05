@@ -9,5 +9,5 @@ export default defineConfig({
     environment: 'jsdom',
   }
   ,
-  base: '/is-5600-week-07'
+  base: '/is-5600-week-07/'
 })
